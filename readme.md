@@ -4,7 +4,7 @@ Ok, so you want to proxy the database.
 
 Install this module, and decorate the factory with code you want to extend
 
-```
+```yaml
 ---
 Name: myproxydb
 After: '#proxydb'
@@ -16,7 +16,7 @@ TractorCow\SilverStripeProxyDB\ProxyDBFactory:
 
 Then in your code you can do this
 
-```
+```php
 <?php
 
 use SilverStripe\Core\Extension;
