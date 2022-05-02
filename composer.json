@@ -16,7 +16,7 @@
     "require": {
         "silverstripe/framework": "^4@dev",
         "silverstripe/vendor-plugin": "^1.0",
-        "tractorcow/classproxy": "^0.1.1"
+        "tractorcow/classproxy": "^1"
     },
     "autoload": {
         "psr-4": {
