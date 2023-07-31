@@ -13,6 +13,11 @@
             "email": "damian@silverstripe.com"
         }
     ],
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.x-dev"
+        }
+    },
     "require": {
         "silverstripe/framework": "^4@dev",
         "silverstripe/vendor-plugin": "^1.0",
