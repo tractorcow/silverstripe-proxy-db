@@ -15,9 +15,9 @@ class ProxyDBFactory implements Factory
      *
      * @param string $service The class name of the service.
      * @param array $params The constructor parameters.
-     * @return object The created service instances.
+     * @return ?object The created service instances.
      */
-    public function create($service, array $params = array())
+    public function create(string $service, array $params = []): ?object
     {
         $proxy = ProxyFactory::create($service);
         $this->extend('updateProxy', $proxy);
